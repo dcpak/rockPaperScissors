@@ -13,7 +13,8 @@ public:
 
 public:
   Game();
-  unsigned int getWinner(string gesturePlayer1, string gesturePlayer2);
+
+  int getWinner(string gesturePlayer1, string gesturePlayer2);
 
 };
 
